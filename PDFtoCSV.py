@@ -23,7 +23,7 @@ def readFolder(path_to_pdfs):
             # extract the file name and extension
             file_name=split_tup[0]
             # print(path_to_pdfs+file_name)
-            readPDFwriteToCsv(path_to_pdfs + '/' + filename,path_to_pdfs + '/' + file_name+'.csv')
+            readPDFwriteToCsv(path_to_pdfs + '/' + filename, path_to_pdfs + '/' + file_name+'.csv')
 
 def readPDFwriteToCsv(pdfFile, csvFile):
     # convert pdf to csv with the same name
