@@ -2,7 +2,8 @@
 import tabula
 import os
 
-configFile = 'config.txt'
+# hardcoding
+configFile = 'config.txt' # location of pdfs in folders
 
 def readConfig():
     # read folders from config file and iterate over them to read from pdf to write to csv
