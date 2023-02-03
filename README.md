@@ -10,4 +10,4 @@ Idea was:
  - Python Scrip open folder containing PDFs and one by one convert all tables in .PDF to a .csv file using tabula library. This is less efective solution, as tabula can run batch convert. Due to security reasons (file name changing) batch conversion has been declined. But I'm leavig code for it, for future me, or for you.
 
 ## Useful links
- (Tabula official documentation)[https://tabula-py.readthedocs.io/en/latest/getting_started.html]
+ [Tabula official documentation](https://tabula-py.readthedocs.io/en/latest/getting_started.html)
